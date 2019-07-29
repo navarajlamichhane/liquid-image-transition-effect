@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Vollkorn&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'DM Serif Display', serif;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.distortion {
+  width: 640px;
+  height: 820px;
+  align-self: flex-end;
+}
+
+.intro {
+  align-self: center;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 3em;
+}
+
+.intro p {
+  font-size: 1em;
+}
